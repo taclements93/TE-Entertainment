@@ -12,6 +12,16 @@ ul{
     list-style: none;
 
 }
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+span{
+    font-size: 5rem;
+    text-align: center;
+}
 .stageLoop{
     display: flex;
     align-items: center;
