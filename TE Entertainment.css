@@ -1,0 +1,32 @@
+body{
+    border: solid, red, 1px;
+    background-color: rgb(0, 25, 46);
+    color: white;
+}
+.jumbotron{
+    border: solid, red, 1px;
+
+}
+ul{
+    display:flex;
+    list-style: none;
+
+}
+.stageLoop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: contain;
+
+
+}
+.background-video {
+
+    overflow: hidden;
+    object-fit: contain;
+
+}
+#firstOfAll{
+    background-color: white;
+
+}
