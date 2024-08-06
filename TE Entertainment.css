@@ -1,20 +1,19 @@
-body{
+body {
 
     background-color: rgb(0, 25, 46);
     color: white;
 }
-.jumbotron{
 
+.jumbotron {}
 
-}
-div{
-    border: solid, red, 1px;
-
-}
-#home{
+div {
+    /* border: solid, red, 1px; */
 
 }
-.container{
+
+#home {}
+
+.container {
     display: flex;
     justify-content: flex-end;
     background-image: url(./Images/te-logo_150dpi_no_bkgrd-m5KWlNQx15uZ6xgD.png);
@@ -23,7 +22,8 @@ div{
     background-size: contain;
     height: 9rem;
 }
-.logoNav{
+
+.logoNav {
     display: inline-flex;
     justify-content: space-between;
     /* justify-content: flex-end; */
@@ -33,15 +33,16 @@ div{
 
 
 }
-.logo{
-width: 18rem;
-height: auto;
-}
-.navItems{
 
+.logo {
+    width: 18rem;
+    height: auto;
 }
-ul{
-    display:flex;
+
+.navItems {}
+
+ul {
+    display: flex;
     margin-right: 2rem;
 
     /* justify-content: space-between; */
@@ -49,27 +50,32 @@ ul{
 
 
 }
-li{
+
+li {
     font-size: 1.4rem;
     padding: 1rem 1rem;
 }
-.header{
+
+.header {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     margin-top: 4rem;
 }
-span{
+
+span {
     font-size: 5rem;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
-.header p{
+
+.header p {
     font-family: 'Calibri';
     font-size: 2rem;
 }
-.stageLoop{
+
+.stageLoop {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -77,28 +83,43 @@ span{
 
 
 }
+
 .background-video {
 
     overflow: hidden;
     object-fit: contain;
 
 }
-#firstOfAll{
+
+#firstOfAll {
     padding-top: 4rem;
     padding-bottom: 4rem;
     background-color: white;
     display: inline-flex;
+    justify-content: space-around;
 
 }
-.firstOfAllText h4{
+
+.firstOfAllText h4 {
     color: rgb(0, 25, 46);
 
 }
-.firstOfAllText h1{
+
+.firstOfAllText h1 {
     color: black;
 
 }
-.firstOfAllText p{
+
+.firstOfAllText p {
     color: black;
 
+}
+
+#notToMention {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: white;
+    color: black;
+    display: inline-flex;
+    justify-content: space-around;
 }
