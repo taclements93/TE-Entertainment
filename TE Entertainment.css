@@ -6,14 +6,21 @@ body {
     margin: 0;
 }
 
-.jumbotron {}
+.jumbotron {
+    height: 60rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
 
 div {
     border: solid, red, 1px;
 
 }
 
-#home {
+.bg {
     background-color: rgb(12, 25, 59);
 }
 
@@ -105,11 +112,92 @@ div {
     font-weight: 600;
 }
 
+/*plant specs*/
+#banner {
+    top: 0;
+    left: 0;
+    align-items: center;
+    position: relative;
+    height: 57rem;
+
+}
+
+#button-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 3.12rem;
+    /*50px;*/
+}
+
+#enter-button {
+    background-color: rgb(63, 168, 63);
+    color: rgb(8, 98, 21);
+    font-size: 1.87rem;
+    /*30px;*/
+    border-radius: 2.5rem;
+    /*40px;*/
+    border: none;
+    font-weight: normal;
+
+    height: 5rem;
+    /*80px;*/
+    width: 12.5rem;
+    opacity: 80%;
+
+    /*200px*/
+}
+
+.background-video {
+
+    overflow: hidden;
+    object-fit: contain;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.stageLoopText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+    width: 100%;
+
+}
+
+#experience-span {
+    font-size: 5rem;
+    color: rgb(247, 247, 247);
+    font-family: roboto condensed;
+    opacity: 70%;
+    margin-top: 10rem;
+    margin-left: 20rem;
+    width: 100%;
+}
+
+#av-span {
+    font-size: 2rem;
+    color: rgb(247, 247, 247);
+    font-family: roboto condensed;
+    opacity: 70%;
+    margin-top: 30rem;
+    margin-left: 120rem;
+    width: 100%;
+    height: auto;
+}
+
+
+/*te css*/
+
+
 .stageLoop {
     display: flex;
     align-items: center;
     justify-content: center;
-    object-fit: contain;
 
 
 }
@@ -125,11 +213,31 @@ div {
     opacity: 75%;
 }
 
+*/
+/* #video-tron {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#av-span {
+    display: flex;
+    margin-top: 45rem;
+    margin-left: 55rem;
+    font-family: roboto condensed;
+    font-size: 2rem;
+    font-weight: 400;
+    z-index: 99;
+    opacity: 75%;
+}
+
 #experienceSpan {
-    position: absolute;
+    display: flex;
+
     margin-top: 10rem;
     margin-left: 15rem;
     font-family: roboto condensed;
+    z-index: 99;
     font-size: 5rem;
     font-weight: 500;
     opacity: 65%;
@@ -140,9 +248,10 @@ div {
 
     overflow: hidden;
     object-fit: contain;
-    position: ;
+    display: flex;
 
-}
+
+} */
 
 #firstOfAll {
     padding-top: 8rem;
